@@ -4,6 +4,6 @@ resource "aws_instance" "web" {
   count = var.num_instance
 
   tags = {
-    Name = "HelloWorld"
+    Name = "testingupgrade"
   }
 }
